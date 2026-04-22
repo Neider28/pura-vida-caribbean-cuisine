@@ -1,0 +1,53 @@
+@import 'tailwindcss';
+
+@custom-variant dark (&:is(.dark *));
+
+@theme {
+  --color-primary: #1b7f3a;
+  --color-secondary: #f0c419;
+  --color-grey: #2f2f2f;
+  --color-dark: #111111;
+
+  --spacing-60\%: 60%;
+  --spacing-70\%: 70%;
+
+  --tracking-widest: 0.515em;
+
+  --radius-Newsletter: 30px 400px 30px 30px;
+}
+
+@layer base {
+  *,
+  ::after,
+  ::before,
+  ::backdrop,
+  ::file-selector-button {
+    border-color: var(--color-gray-200, currentcolor);
+  }
+
+  body {
+    @apply bg-[#fffdf3] text-black;
+  }
+
+  section {
+    @apply py-12 md:py-16;
+  }
+
+  h1 {
+    @apply text-5xl text-black sm:text-6xl md:text-7xl;
+  }
+
+  h2 {
+    @apply text-4xl font-semibold leading-11 text-black sm:text-5xl sm:leading-14;
+  }
+}
+
+@layer utilities {
+  .container {
+    @apply mx-auto w-full max-w-7xl px-4;
+  }
+}
+
+iframe {
+  border: 0;
+}

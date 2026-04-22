@@ -1,0 +1,28 @@
+import React from 'react'
+import { Metadata } from 'next'
+import Hero from '@/app/components/Home/Hero'
+import Features from '@/app/components/Home/Features'
+import Cook from '@/app/components/Home/Cook'
+import Expert from '@/app/components/Home/Expert'
+import Gallery from '@/app/components/Home/Gallery'
+import Newsletter from '@/app/components/Home/Newsletter'
+import ContactForm from './components/Contact/Form'
+
+export const metadata: Metadata = {
+  title: 'Pura Vida Caribbean Cuisine',
+  description: 'Authentic Caribbean and Costa Rican restaurant landing page.',
+}
+
+export default function Home() {
+  return (
+    <main>
+      <Hero />
+      <Features />
+      <Cook />
+      <Gallery />
+      <Expert />
+      <ContactForm />
+      <Newsletter />
+    </main>
+  )
+}
