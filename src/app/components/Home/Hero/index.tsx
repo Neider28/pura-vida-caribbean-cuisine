@@ -71,7 +71,7 @@ const Hero = () => {
                 className='h-full w-full rounded-[1.75rem] object-cover'
                 priority
               />
-              <div className='absolute left-5 top-5 max-w-[18rem] rounded-[1.5rem] border border-primary/10 bg-white/92 p-5 text-black shadow-lg backdrop-blur-sm sm:left-7 sm:top-7'>
+              <div className='absolute left-7 top-7 hidden max-w-[18rem] rounded-[1.5rem] border border-primary/10 bg-white/92 p-5 text-black shadow-lg backdrop-blur-sm sm:block'>
                 <p className='text-xs font-semibold uppercase tracking-[0.35em] text-primary'>
                   Pura Vida
                 </p>
@@ -80,7 +80,26 @@ const Hero = () => {
                 </p>
                 <p className='mt-3 text-sm leading-6 text-black/65'>{heroNote}</p>
               </div>
-              <div className='absolute bottom-5 left-5 rounded-[1.5rem] border border-primary/10 bg-[#fffdf3] px-5 py-4 shadow-lg sm:bottom-7 sm:left-7'>
+              <div className='absolute bottom-7 left-7 hidden rounded-[1.5rem] border border-primary/10 bg-[#fffdf3] px-5 py-4 shadow-lg sm:block'>
+                <p className='text-xs font-semibold uppercase tracking-[0.3em] text-primary'>
+                  Lunch Specials
+                </p>
+                <p className='mt-2 text-lg font-semibold text-black'>11:30 am - 1:30 pm</p>
+              </div>
+            </div>
+
+            <div className='mt-4 grid gap-3 sm:hidden'>
+              <div className='rounded-[1.5rem] border border-primary/10 bg-white p-5 text-black shadow-lg'>
+                <p className='text-xs font-semibold uppercase tracking-[0.35em] text-primary'>
+                  Pura Vida
+                </p>
+                <p className='mt-3 text-2xl font-semibold leading-tight text-black'>
+                  {content.slogan}
+                </p>
+                <p className='mt-3 text-sm leading-6 text-black/65'>{heroNote}</p>
+              </div>
+
+              <div className='rounded-[1.5rem] border border-primary/10 bg-[#fffdf3] px-5 py-4 shadow-lg'>
                 <p className='text-xs font-semibold uppercase tracking-[0.3em] text-primary'>
                   Lunch Specials
                 </p>
