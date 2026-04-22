@@ -6,7 +6,7 @@ import Logo from '../Header/Logo'
 import { useSiteContent } from '@/app/context/language'
 
 const Footer: FC = () => {
-  const { content } = useSiteContent()
+  const { content, language } = useSiteContent()
 
   return (
     <footer className='border-t border-primary/10 bg-[#111111] text-white'>
@@ -35,6 +35,15 @@ const Footer: FC = () => {
 
           <div className='mt-8 border-t border-white/8 pt-6 text-center'>
             <p className='text-sm text-white/58'>{content.footer.rights}</p>
+            <p className='mt-3 text-sm text-white/58'>
+              {language === 'es' ? 'Hecho por ' : 'Made by '}
+              <Link
+                href='https://neidersilva.vercel.app/'
+                target='_blank'
+                className='font-semibold text-primary transition hover:text-white'>
+                Neider Silva
+              </Link>
+            </p>
           </div>
         </div>
       </div>
