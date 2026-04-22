@@ -259,11 +259,10 @@ export const siteContent: Record<SiteLanguage, SiteContent> = {
         },
         {
           category: 'dinners',
-          name: 'Casado Tico',
+          name: 'Casadi Tico',
           description:
             'Plato completo estilo casado con acompañamientos tradicionales.',
           price: '$19.99',
-          image: '/images/Gallery/rice-with-vegetables.jpeg',
         },
         {
           category: 'dinners',
@@ -345,7 +344,7 @@ export const siteContent: Record<SiteLanguage, SiteContent> = {
         },
         {
           category: 'dinners',
-          name: 'Taco Dinner',
+          name: 'Taco Dinner (3)',
           description:
             'Taco dinner con tu proteína favorita.',
           price: '$13.50',
@@ -355,7 +354,6 @@ export const siteContent: Record<SiteLanguage, SiteContent> = {
           name: 'Chalupa de Pollo',
           description: 'Chicken chalupa preparada al momento.',
           price: '$14.99',
-          image: '/images/Gallery/beef-paty.jpeg',
         },
         {
           category: 'entrees',
@@ -380,7 +378,6 @@ export const siteContent: Record<SiteLanguage, SiteContent> = {
           name: 'Ensalada de Pollo',
           description: 'Chicken salad preparada al momento.',
           price: '$13.99',
-          image: '/images/Gallery/curry-chicken.jpeg',
         },
         {
           category: 'entrees',
@@ -428,10 +425,9 @@ export const siteContent: Record<SiteLanguage, SiteContent> = {
         },
         {
           category: 'sides',
-          name: 'Rice and Beans',
+          name: 'Arroz con Frijoles',
           description: 'Arroz con frijoles con sazón tradicional.',
           price: '$7.99',
-          image: '/images/Gallery/rice-with-vegetables.jpeg',
         },
         {
           category: 'soups',
@@ -514,7 +510,7 @@ export const siteContent: Record<SiteLanguage, SiteContent> = {
         },
         {
           category: 'drinks',
-          name: 'Ginger Lemonade',
+          name: 'Limonada de Jengibre',
           description: 'Small $3.50 | Large $6.99',
           price: 'Desde $3.50',
         },
@@ -535,7 +531,6 @@ export const siteContent: Record<SiteLanguage, SiteContent> = {
           name: 'Pastel de Chocolate',
           description: 'Chocolate cake suave y delicioso.',
           price: '$6.99',
-          image: '/images/Gallery/sweet-plantain.jpeg',
         },
         {
           category: 'desserts',
@@ -568,6 +563,7 @@ export const siteContent: Record<SiteLanguage, SiteContent> = {
           name: 'Small Jerk Chicken',
           description: 'Bandeja pequeña para catering.',
           price: '$85',
+          image: '/images/Gallery/jerk-chicken.jpeg',
         },
         {
           category: 'catering',
@@ -581,6 +577,7 @@ export const siteContent: Record<SiteLanguage, SiteContent> = {
           name: 'Small Curry Chicken',
           description: 'Bandeja pequeña para catering.',
           price: '$85',
+          image: '/images/Gallery/curry-chicken.jpeg',
         },
         {
           category: 'catering',
@@ -611,7 +608,6 @@ export const siteContent: Record<SiteLanguage, SiteContent> = {
           name: 'Large Rice and Beans',
           description: 'Rice and beans en bandeja grande.',
           price: '$90',
-          image: '/images/Gallery/rice-with-vegetables.jpeg',
         },
         {
           category: 'catering',
@@ -624,7 +620,6 @@ export const siteContent: Record<SiteLanguage, SiteContent> = {
           name: 'Large Rice with Vegetables',
           description: 'Arroz con vegetales en bandeja grande.',
           price: '$75',
-          image: '/images/Gallery/rice-with-vegetables.jpeg',
         },
         {
           category: 'catering',
@@ -638,13 +633,6 @@ export const siteContent: Record<SiteLanguage, SiteContent> = {
           description: 'Bandeja de sweet plantain para catering.',
           price: '$50',
           image: '/images/Gallery/sweet-plantain.jpeg',
-        },
-        {
-          category: 'catering',
-          name: 'Cualquier otro plato del menú',
-          description:
-            'También preparamos otras opciones del menú para tus eventos.',
-          price: 'Consultar',
         },
       ],
     },
@@ -882,11 +870,10 @@ export const siteContent: Record<SiteLanguage, SiteContent> = {
         },
         {
           category: 'dinners',
-          name: 'Casado Tico',
+          name: 'Casadi Tico',
           description:
             'A full Costa Rican-style plate with classic house sides.',
           price: '$19.99',
-          image: '/images/Gallery/rice-with-vegetables.jpeg',
         },
         {
           category: 'dinners',
@@ -958,7 +945,7 @@ export const siteContent: Record<SiteLanguage, SiteContent> = {
         },
         {
           category: 'dinners',
-          name: 'Taco Dinner',
+          name: 'Taco Dinner (3)',
           description: 'Taco dinner with your choice of protein.',
           price: '$13.50',
         },
@@ -967,7 +954,6 @@ export const siteContent: Record<SiteLanguage, SiteContent> = {
           name: 'Chicken Chalupa',
           description: 'Fresh chicken chalupa made to order.',
           price: '$14.99',
-          image: '/images/Gallery/beef-paty.jpeg',
         },
         {
           category: 'entrees',
@@ -983,7 +969,7 @@ export const siteContent: Record<SiteLanguage, SiteContent> = {
         },
         {
           category: 'entrees',
-          name: 'House Salad',
+          name: 'Salad',
           description: 'A fresh and lighter salad option.',
           price: '$12.99',
         },
@@ -992,7 +978,6 @@ export const siteContent: Record<SiteLanguage, SiteContent> = {
           name: 'Chicken Salad',
           description: 'Fresh chicken salad prepared to order.',
           price: '$13.99',
-          image: '/images/Gallery/curry-chicken.jpeg',
         },
         {
           category: 'entrees',
@@ -1021,13 +1006,13 @@ export const siteContent: Record<SiteLanguage, SiteContent> = {
         },
         {
           category: 'sides',
-          name: 'Fried Cassava',
+          name: 'Cassava',
           description: 'Crispy cassava side dish.',
           price: '$4.90',
         },
         {
           category: 'sides',
-          name: 'Patacones',
+          name: 'Green Plantin',
           description: 'Fried green plantain with a crisp finish.',
           price: '$4.90',
         },
@@ -1043,7 +1028,6 @@ export const siteContent: Record<SiteLanguage, SiteContent> = {
           name: 'Rice and Beans',
           description: 'Traditional rice and beans with house seasoning.',
           price: '$7.99',
-          image: '/images/Gallery/rice-with-vegetables.jpeg',
         },
         {
           category: 'soups',
@@ -1059,7 +1043,7 @@ export const siteContent: Record<SiteLanguage, SiteContent> = {
         },
         {
           category: 'soups',
-          name: 'Tripe Soup',
+          name: 'Tripe Stew Soup',
           description: 'Mondongo-style soup prepared with home seasoning.',
           price: '$13.99',
         },
@@ -1109,7 +1093,7 @@ export const siteContent: Record<SiteLanguage, SiteContent> = {
         },
         {
           category: 'drinks',
-          name: 'Sorrel Juice',
+          name: 'Surreal Juice',
           description:
             'Small $3.50 | Large $6.99',
           price: 'From $3.50',
@@ -1155,7 +1139,6 @@ export const siteContent: Record<SiteLanguage, SiteContent> = {
           description:
             'Soft chocolate cake served by the slice.',
           price: '$6.99',
-          image: '/images/Gallery/sweet-plantain.jpeg',
         },
         {
           category: 'desserts',
@@ -1173,7 +1156,7 @@ export const siteContent: Record<SiteLanguage, SiteContent> = {
         },
         {
           category: 'desserts',
-          name: 'Tres Leches',
+          name: 'White Cake',
           description:
             'Traditional three-milk cake with a soft texture.',
           price: '$6.99',
@@ -1192,6 +1175,7 @@ export const siteContent: Record<SiteLanguage, SiteContent> = {
           description:
             'Small catering tray.',
           price: '$85',
+          image: '/images/Gallery/jerk-chicken.jpeg',
         },
         {
           category: 'catering',
@@ -1207,6 +1191,7 @@ export const siteContent: Record<SiteLanguage, SiteContent> = {
           description:
             'Small catering tray.',
           price: '$85',
+          image: '/images/Gallery/curry-chicken.jpeg',
         },
         {
           category: 'catering',
@@ -1242,7 +1227,6 @@ export const siteContent: Record<SiteLanguage, SiteContent> = {
           description:
             'Large rice and beans tray.',
           price: '$90',
-          image: '/images/Gallery/rice-with-vegetables.jpeg',
         },
         {
           category: 'catering',
@@ -1257,7 +1241,6 @@ export const siteContent: Record<SiteLanguage, SiteContent> = {
           description:
             'Large vegetable rice tray.',
           price: '$75',
-          image: '/images/Gallery/rice-with-vegetables.jpeg',
         },
         {
           category: 'catering',
@@ -1274,20 +1257,13 @@ export const siteContent: Record<SiteLanguage, SiteContent> = {
           price: '$50',
           image: '/images/Gallery/sweet-plantain.jpeg',
         },
-        {
-          category: 'catering',
-          name: 'Any item from the menu',
-          description:
-            'Other menu items are also available for events on request.',
-          price: 'Ask us',
-        },
       ],
     },
     gallery: {
       eyebrow: 'Gallery',
       title: 'Food, atmosphere, and tropical energy with a familiar feel',
       description:
-        'This section is ready to be replaced later with real photos of your dishes, dining room, and restaurant atmosphere.',
+        'A visual taste of the bold plates, warm atmosphere, and vibrant details that make every visit feel memorable.',
       items: [
         {
           title: 'Flavor that grabs your attention instantly',

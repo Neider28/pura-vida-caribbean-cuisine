@@ -109,27 +109,25 @@ const Gallery = () => {
           {filteredItems.map((item) => (
             <article
               key={`${item.category}-${item.name}`}
-              className='group flex h-full flex-col overflow-hidden rounded-[2rem] border border-primary/10 bg-white shadow-[0_24px_60px_rgba(17,17,17,0.08)] transition duration-300 hover:-translate-y-1.5 hover:shadow-[0_32px_80px_rgba(17,17,17,0.12)]'>
+              className='group grid h-[30rem] grid-rows-[3fr_2fr] overflow-hidden rounded-[2rem] border border-primary/10 bg-white shadow-[0_24px_60px_rgba(17,17,17,0.08)] transition duration-300 hover:-translate-y-1.5 hover:shadow-[0_32px_80px_rgba(17,17,17,0.12)]'>
               {item.image ? (
-                <div className='relative overflow-hidden'>
+                <div className='relative h-full overflow-hidden'>
                   <Image
                     src={item.image}
                     alt={item.name}
                     width={700}
                     height={500}
-                    className='h-64 w-full object-cover transition duration-500 group-hover:scale-[1.03]'
+                    className='h-full w-full object-cover object-center transition duration-500 group-hover:scale-[1.03]'
                   />
                   <div className='absolute left-5 top-5 rounded-full bg-black/60 px-3 py-2 text-xs font-semibold uppercase tracking-[0.25em] text-white backdrop-blur-sm'>
                     {activeCategoryLabel}
                   </div>
                 </div>
               ) : (
-                <div className='relative overflow-hidden bg-[linear-gradient(135deg,_rgba(27,127,58,0.08),_rgba(240,196,25,0.18))] p-6'>
+                <div className='relative h-full overflow-hidden bg-[linear-gradient(135deg,_rgba(27,127,58,0.08),_rgba(240,196,25,0.18))] p-6'>
                   <div className='absolute -right-8 -top-8 h-24 w-24 rounded-full bg-primary/10 blur-2xl'></div>
-                  <div className='flex h-14 w-14 items-center justify-center rounded-2xl bg-white text-primary shadow-sm'>
-                    <Icon icon={categoryIcons[activeCategory]} width='26' height='26' />
-                  </div>
-                  <div className='mt-6 rounded-full bg-white/80 px-3 py-2 text-xs font-semibold uppercase tracking-[0.25em] text-primary backdrop-blur-sm inline-flex'>
+                  <div className='absolute bottom-0 left-1/2 h-28 w-28 -translate-x-1/2 rounded-full bg-white/30 blur-2xl'></div>
+                  <div className='absolute left-5 top-5 rounded-full bg-black/60 px-3 py-2 text-xs font-semibold uppercase tracking-[0.25em] text-white backdrop-blur-sm'>
                     {activeCategoryLabel}
                   </div>
                 </div>
@@ -139,9 +137,6 @@ const Gallery = () => {
                 <div className='flex items-start justify-between gap-4'>
                   <div>
                     <p className='text-2xl font-semibold text-black'>{item.name}</p>
-                    <p className='mt-3 text-base leading-7 text-black/60'>
-                      {item.description}
-                    </p>
                   </div>
                   <span className='shrink-0 rounded-full bg-secondary px-4 py-2 text-sm font-bold text-black shadow-sm'>
                     {item.price}
