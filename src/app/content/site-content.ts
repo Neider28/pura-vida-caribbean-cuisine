@@ -254,12 +254,12 @@ export const siteContent: Record<SiteLanguage, SiteContent> = {
           name: 'Jerk Wings',
           description:
             'Alitas jerk con un equilibrio de picante, humo y notas dulces.',
-          price: '$14.99',
+          price: '$18.00',
           image: '/images/Gallery/jerk-wings.jpeg',
         },
         {
           category: 'dinners',
-          name: 'Casadi Tico',
+          name: 'Casado Tico',
           description:
             'Plato completo estilo casado con acompañamientos tradicionales.',
           price: '$19.99',
@@ -270,7 +270,6 @@ export const siteContent: Record<SiteLanguage, SiteContent> = {
           description:
             'Chicken in Caribbean sauce con sazón casera y mucho sabor.',
           price: '$17.99',
-          image: '/images/Gallery/jerk-chicken.jpeg',
         },
         {
           category: 'dinners',
@@ -483,42 +482,49 @@ export const siteContent: Record<SiteLanguage, SiteContent> = {
           description:
             'Small $3.50 | Large $6.99',
           price: 'Desde $3.50',
+          image: '/images/Gallery/horchata.jpeg',
         },
         {
           category: 'drinks',
           name: 'Agua de Tamarindo',
           description: 'Small $3.50 | Large $6.99',
           price: 'Desde $3.50',
+          image: '/images/Gallery/tamarind.jpeg',
         },
         {
           category: 'drinks',
           name: 'Agua de Jamaica',
           description: 'Small $3.50 | Large $6.99',
           price: 'Desde $3.50',
+          image: '/images/Gallery/surreal.jpeg',
         },
         {
           category: 'drinks',
           name: 'Agua de Piña',
           description: 'Small $3.50 | Large $6.99',
           price: 'Desde $3.50',
+          image: '/images/Gallery/pinneapple.jpeg',
         },
         {
           category: 'drinks',
           name: 'Agua de Fresa',
           description: 'Small $3.50 | Large $6.99',
           price: 'Desde $3.50',
+          image: '/images/Gallery/strawberry.jpeg',
         },
         {
           category: 'drinks',
           name: 'Limonada de Jengibre',
           description: 'Small $3.50 | Large $6.99',
           price: 'Desde $3.50',
+          image: '/images/Gallery/ginger.jpeg',
         },
         {
           category: 'drinks',
           name: 'Agua de Maracuyá',
           description: 'Small $3.50 | Large $6.99',
           price: 'Desde $3.50',
+          image: '/images/Gallery/passion.jpeg',
         },
         {
           category: 'drinks',
@@ -556,83 +562,91 @@ export const siteContent: Record<SiteLanguage, SiteContent> = {
           name: 'Large Jerk Chicken',
           description: 'Bandeja grande para catering.',
           price: '$100',
-          image: '/images/Gallery/jerk-chicken.jpeg',
+          image: '/images/Gallery/pura-vida-catering.jpeg',
         },
         {
           category: 'catering',
           name: 'Small Jerk Chicken',
           description: 'Bandeja pequeña para catering.',
           price: '$85',
-          image: '/images/Gallery/jerk-chicken.jpeg',
+          image: '/images/Gallery/pura-vida-catering.jpeg',
         },
         {
           category: 'catering',
           name: 'Large Curry Chicken',
           description: 'Bandeja grande para catering.',
           price: '$100',
-          image: '/images/Gallery/curry-chicken.jpeg',
+          image: '/images/Gallery/pura-vida-catering.jpeg',
         },
         {
           category: 'catering',
           name: 'Small Curry Chicken',
           description: 'Bandeja pequeña para catering.',
           price: '$85',
-          image: '/images/Gallery/curry-chicken.jpeg',
+          image: '/images/Gallery/pura-vida-catering.jpeg',
         },
         {
           category: 'catering',
           name: 'Large Cabbage',
           description: 'Acompañamiento grande para eventos.',
           price: '$50',
+          image: '/images/Gallery/pura-vida-catering.jpeg',
         },
         {
           category: 'catering',
           name: 'Small Cabbage',
           description: 'Acompañamiento pequeño para eventos.',
           price: '$35',
+          image: '/images/Gallery/pura-vida-catering.jpeg',
         },
         {
           category: 'catering',
           name: 'Large Pasta Salad',
           description: 'Pasta salad grande para compartir.',
           price: '$65',
+          image: '/images/Gallery/pura-vida-catering.jpeg',
         },
         {
           category: 'catering',
           name: 'Small Pasta Salad',
           description: 'Pasta salad pequeña para catering.',
           price: '$50',
+          image: '/images/Gallery/pura-vida-catering.jpeg',
         },
         {
           category: 'catering',
           name: 'Large Rice and Beans',
           description: 'Rice and beans en bandeja grande.',
           price: '$90',
+          image: '/images/Gallery/pura-vida-catering.jpeg',
         },
         {
           category: 'catering',
           name: 'Small Rice and Beans',
           description: 'Rice and beans en bandeja pequeña.',
           price: '$80',
+          image: '/images/Gallery/pura-vida-catering.jpeg',
         },
         {
           category: 'catering',
           name: 'Large Rice with Vegetables',
           description: 'Arroz con vegetales en bandeja grande.',
           price: '$75',
+          image: '/images/Gallery/pura-vida-catering.jpeg',
         },
         {
           category: 'catering',
           name: 'Small Rice with Vegetables',
           description: 'Arroz con vegetales en bandeja pequeña.',
           price: '$80',
+          image: '/images/Gallery/pura-vida-catering.jpeg',
         },
         {
           category: 'catering',
           name: 'Sweet Plantain',
           description: 'Bandeja de sweet plantain para catering.',
           price: '$50',
-          image: '/images/Gallery/sweet-plantain.jpeg',
+          image: '/images/Gallery/pura-vida-catering.jpeg',
         },
       ],
     },
@@ -865,12 +879,12 @@ export const siteContent: Record<SiteLanguage, SiteContent> = {
           name: 'Jerk Wings',
           description:
             'Jerk wings with a balance of heat, smoke, and sweet notes.',
-          price: '$14.99',
+          price: '$18.00',
           image: '/images/Gallery/jerk-wings.jpeg',
         },
         {
           category: 'dinners',
-          name: 'Casadi Tico',
+          name: 'Casado Tico',
           description:
             'A full Costa Rican-style plate with classic house sides.',
           price: '$19.99',
@@ -881,7 +895,6 @@ export const siteContent: Record<SiteLanguage, SiteContent> = {
           description:
             'House-style chicken in Caribbean sauce with bold seasoning.',
           price: '$17.99',
-          image: '/images/Gallery/jerk-chicken.jpeg',
         },
         {
           category: 'dinners',
@@ -1083,6 +1096,7 @@ export const siteContent: Record<SiteLanguage, SiteContent> = {
           description:
             'Small $3.50 | Large $6.99',
           price: 'From $3.50',
+          image: '/images/Gallery/horchata.jpeg',
         },
         {
           category: 'drinks',
@@ -1090,6 +1104,7 @@ export const siteContent: Record<SiteLanguage, SiteContent> = {
           description:
             'Small $3.50 | Large $6.99',
           price: 'From $3.50',
+          image: '/images/Gallery/tamarind.jpeg',
         },
         {
           category: 'drinks',
@@ -1097,6 +1112,7 @@ export const siteContent: Record<SiteLanguage, SiteContent> = {
           description:
             'Small $3.50 | Large $6.99',
           price: 'From $3.50',
+          image: '/images/Gallery/surreal.jpeg',
         },
         {
           category: 'drinks',
@@ -1104,6 +1120,7 @@ export const siteContent: Record<SiteLanguage, SiteContent> = {
           description:
             'Small $3.50 | Large $6.99',
           price: 'From $3.50',
+          image: '/images/Gallery/pinneapple.jpeg',
         },
         {
           category: 'drinks',
@@ -1111,6 +1128,7 @@ export const siteContent: Record<SiteLanguage, SiteContent> = {
           description:
             'Small $3.50 | Large $6.99',
           price: 'From $3.50',
+          image: '/images/Gallery/strawberry.jpeg',
         },
         {
           category: 'drinks',
@@ -1118,6 +1136,7 @@ export const siteContent: Record<SiteLanguage, SiteContent> = {
           description:
             'Small $3.50 | Large $6.99',
           price: 'From $3.50',
+          image: '/images/Gallery/ginger.jpeg',
         },
         {
           category: 'drinks',
@@ -1125,6 +1144,7 @@ export const siteContent: Record<SiteLanguage, SiteContent> = {
           description:
             'Small $3.50 | Large $6.99',
           price: 'From $3.50',
+          image: '/images/Gallery/passion.jpeg',
         },
         {
           category: 'drinks',
@@ -1167,7 +1187,7 @@ export const siteContent: Record<SiteLanguage, SiteContent> = {
           description:
             'Large catering tray.',
           price: '$100',
-          image: '/images/Gallery/jerk-chicken.jpeg',
+          image: '/images/Gallery/pura-vida-catering.jpeg',
         },
         {
           category: 'catering',
@@ -1175,7 +1195,7 @@ export const siteContent: Record<SiteLanguage, SiteContent> = {
           description:
             'Small catering tray.',
           price: '$85',
-          image: '/images/Gallery/jerk-chicken.jpeg',
+          image: '/images/Gallery/pura-vida-catering.jpeg',
         },
         {
           category: 'catering',
@@ -1183,7 +1203,7 @@ export const siteContent: Record<SiteLanguage, SiteContent> = {
           description:
             'Large catering tray.',
           price: '$100',
-          image: '/images/Gallery/curry-chicken.jpeg',
+          image: '/images/Gallery/pura-vida-catering.jpeg',
         },
         {
           category: 'catering',
@@ -1191,7 +1211,7 @@ export const siteContent: Record<SiteLanguage, SiteContent> = {
           description:
             'Small catering tray.',
           price: '$85',
-          image: '/images/Gallery/curry-chicken.jpeg',
+          image: '/images/Gallery/pura-vida-catering.jpeg',
         },
         {
           category: 'catering',
@@ -1199,6 +1219,7 @@ export const siteContent: Record<SiteLanguage, SiteContent> = {
           description:
             'Large side tray for events.',
           price: '$50',
+          image: '/images/Gallery/pura-vida-catering.jpeg',
         },
         {
           category: 'catering',
@@ -1206,6 +1227,7 @@ export const siteContent: Record<SiteLanguage, SiteContent> = {
           description:
             'Small side tray for events.',
           price: '$35',
+          image: '/images/Gallery/pura-vida-catering.jpeg',
         },
         {
           category: 'catering',
@@ -1213,6 +1235,7 @@ export const siteContent: Record<SiteLanguage, SiteContent> = {
           description:
             'Large pasta salad tray for sharing.',
           price: '$65',
+          image: '/images/Gallery/pura-vida-catering.jpeg',
         },
         {
           category: 'catering',
@@ -1220,6 +1243,7 @@ export const siteContent: Record<SiteLanguage, SiteContent> = {
           description:
             'Small pasta salad tray.',
           price: '$50',
+          image: '/images/Gallery/pura-vida-catering.jpeg',
         },
         {
           category: 'catering',
@@ -1227,6 +1251,7 @@ export const siteContent: Record<SiteLanguage, SiteContent> = {
           description:
             'Large rice and beans tray.',
           price: '$90',
+          image: '/images/Gallery/pura-vida-catering.jpeg',
         },
         {
           category: 'catering',
@@ -1234,6 +1259,7 @@ export const siteContent: Record<SiteLanguage, SiteContent> = {
           description:
             'Small rice and beans tray.',
           price: '$80',
+          image: '/images/Gallery/pura-vida-catering.jpeg',
         },
         {
           category: 'catering',
@@ -1241,6 +1267,7 @@ export const siteContent: Record<SiteLanguage, SiteContent> = {
           description:
             'Large vegetable rice tray.',
           price: '$75',
+          image: '/images/Gallery/pura-vida-catering.jpeg',
         },
         {
           category: 'catering',
@@ -1248,6 +1275,7 @@ export const siteContent: Record<SiteLanguage, SiteContent> = {
           description:
             'Small vegetable rice tray.',
           price: '$80',
+          image: '/images/Gallery/pura-vida-catering.jpeg',
         },
         {
           category: 'catering',
@@ -1255,7 +1283,7 @@ export const siteContent: Record<SiteLanguage, SiteContent> = {
           description:
             'Sweet plantain tray for catering.',
           price: '$50',
-          image: '/images/Gallery/sweet-plantain.jpeg',
+          image: '/images/Gallery/pura-vida-catering.jpeg',
         },
       ],
     },
